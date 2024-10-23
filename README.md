@@ -13,7 +13,8 @@ The `Data` folder contains the following files:
 - **`recipe_faiss_ivf_index.index`**: Precomputed FAISS index file generated from the recipe dataset for similarity-based recipe searching.
 - **`recipe_metadata.pkl`**: Metadata file containing relevant details for each recipe, such as title, ingredients, and meal type.
 - **`recipes.csv`**: CSV file containing the raw dataset of 40k recipes, with information such as recipe names, ingredients, and meal types.
-
+- **Note: Install faiss-cpu or faiss-gpu on a conda environment
+  
 ### 2. Scripts Folder
 The `Scripts` folder includes the following Python scripts:
 
