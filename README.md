@@ -20,3 +20,4 @@ The `Scripts` folder includes the following Python scripts:
 - **`Precomputation-FAISS.py`**: This script precomputes the FAISS index based on the recipes dataset (`recipes.csv`). It creates an efficient similarity-based index and stores it in the `Data/recipe_faiss_ivf_index.index` file.
   
 - **`Recipe-Recommendation.py`**: This script takes inputs in the form of a `foodhak-userid` and meal type counts (e.g., number of breakfasts, lunches, and dinners) and outputs recipe recommendations in JSON format for each meal type.
+- **`Recipe-Recommendation-V2.py`**: This script is the updated version of the `Recipe-Recommendation.py`, this script returns the recipe-id along with the recipes.
